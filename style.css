@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');/*font h1*/
+
+menu{
+    width: 95.5vw;
+    background-color: rgba(144, 238, 144, 0.603);
+    margin: -8px;
+}
+menu img{
+    padding: 5px;
+    width: 70px;
+    margin-top: 0px;
+}
+menu a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    float: right;
+    padding: 20px;
+}
+#sobre{
+    height: 80vh;
+    width: 98vw;
+    background-image: url(imagens/pexels-element-digital-1470171.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sobre h1{
+    margin-top: 0px;
+    padding-top: 50px;
+    font-family: 'Vollkorn', serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: darkgreen;
+    text-align: center;
+}
+
+#quadro{
+    width: 600px;
+    border: 1px solid rgba(144, 238, 144, 0.486);
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    background-color: rgba(144, 238, 144, 0.486);
+    text-align: center;
+    font-size: 1.2em;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#quadro h2{
+    font-size: 2em;
+    color: darkgreen;
+}
+#quadro p {
+    text-align: justify;
+    padding: 10px;
+}
+#recursos{
+    height: 80vh;
+    width: 98vw;
+}
+#recursos h2{
+    margin-top: 50px;
+    font-size: 2em;
+    text-align: center;
+    color: darkgreen;
+    padding-bottom: 30px;
+}
+#torneira {
+    margin-right: 100px ;
+    margin-left: 12%;
+    background-color:  rgba(144, 238, 144, 0.486);
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+}
+#torneira h2{
+    font-size: 2.2em;
+    margin: 0px;
+    padding: 0px;
+}
+#mao {
+    background-color:  rgba(144, 238, 144, 0.486);
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-right: 100px;
+    padding: 10px;
+}
+#mao h2{
+    font-size: 2.2em;
+    margin: 0px;
+    padding: 0px;
+}
+#reutilizar{
+    background-color:  rgba(144, 238, 144, 0.486);
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    top: -36px;
+    padding: 10px;
+}
+#reutilizar h2{
+    font-size: 2.2em;
+    margin: 0px;
+    padding: 0px;
+}
+#contato{
+    margin: auto;
+    height: 60vh;
+    width: 75vw;
+    background-color: rgba(144, 238, 144, 0.486);
+}
+#contato h2{
+    padding-top: 50px;
+    color:darkgreen;
+    font-size: 2em;
+    text-align: center;
+}
+#contato p{
+    padding-top: 50px;
+    font-size: 1.2em;
+    text-align: center;
+}
+#contato img{
+    padding-top: 50px;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    left:35%;
+}
+footer{
+    background-color: darkgreen;
+    height: 30px;
+    margin: -8px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
